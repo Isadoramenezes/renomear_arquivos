@@ -8,7 +8,6 @@ for arquivo in os.listdir('./arquivos_para_renomear'):
         mes = dados_padrao_doeal[1]
         dia = dados_padrao_doeal[0]
 
-        nome_padrao = ano + "-" + mes + "-" + dia + ".pdf"
     else:
         ano = dados[0]
         mes = dados[1]
